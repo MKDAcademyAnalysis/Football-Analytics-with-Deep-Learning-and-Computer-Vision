@@ -7,6 +7,12 @@ import cv2
 from ultralytics import YOLO
 from detection import create_colors_info, detect
 
+import pkgutil
+import streamlit as st
+
+st.write("Installed packages:")
+st.write([m.name for m in pkgutil.iter_modules()])
+
 
 
 def main():
