@@ -1,8 +1,8 @@
 streamlit
+opencv-python-headless
 streamlit-image-coordinates
-ultralytics
-opencv-python
 pillow
 scikit-image
 scikit-learn
+ultralytics
 torch --index-url https://download.pytorch.org/whl/cpu
